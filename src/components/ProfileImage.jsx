@@ -6,7 +6,7 @@ function ProfileImage(props) {
  // console.log(props.image)
   return (
     <div>
-      <img src={props.image} className="whatever" alt="profile"/>
+      <img src={props.image} className="profile" alt="profile"/>
     </div>
 )
 }
